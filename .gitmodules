@@ -1,6 +1,6 @@
 [submodule "amf"]
 	path = NFs/amf
-	url = https://github.com/free5gc/amf.git
+	url = https://github.com/BENHSU0723/amf.git
 [submodule "ausf"]
 	path = NFs/ausf
 	url = https://github.com/free5gc/ausf.git
@@ -15,22 +15,22 @@
 	url = https://github.com/free5gc/nssf.git
 [submodule "pcf"]
 	path = NFs/pcf
-	url = https://github.com/free5gc/pcf.git
+	url = https://github.com/BENHSU0723/pcf.git
 [submodule "smf"]
 	path = NFs/smf
 	url = https://github.com/free5gc/smf.git
 [submodule "udm"]
 	path = NFs/udm
-	url = https://github.com/free5gc/udm.git
+	url = https://github.com/BENHSU0723/udm.git
 [submodule "udr"]
 	path = NFs/udr
-	url = https://github.com/free5gc/udr.git
+	url = https://github.com/BENHSU0723/udr.git
 [submodule "upf"]
 	path = NFs/upf
 	url = https://github.com/free5gc/go-upf.git
 [submodule "webconsole"]
 	path = webconsole
-	url = https://github.com/free5gc/webconsole.git
+	url = https://github.com/BENHSU0723/webconsole.git
 [submodule "chf"]
 	path = NFs/chf
 	url = https://github.com/free5gc/chf.git

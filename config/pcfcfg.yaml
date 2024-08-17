@@ -29,6 +29,17 @@ configuration:
     name: free5gc                  # name of the mongodb
     url: mongodb://localhost:27017 # a valid URL of the mongodb
   locality: area1 # Name of the location where a set of AMF, SMF, PCF and UPFs are located
+  defaultURSP:   #UE policy-URSP, send to UE, UE's flow go to PDU session of defaulURSP if no URSP rule matching
+    dnn: internet # Data Network Name
+    snssai: # S-NSSAI of this NSI
+      sst: 1 # Slice/Service Type (uinteger, range: 0~255)
+      sd: 010203 # Slice Differentiator (3 bytes hex string, range: 000000~FFFFFF)
+
+# retransmission timer for MANAGE UE POLICY COMMAND message
+  t3501:
+    enable: true     # true or false
+    expireTime: 10s  # default is 8 seconds
+    maxRetryTimes: 4 # the max number of retransmission
 
 logger: # log output setting
   enable: true # true or false
