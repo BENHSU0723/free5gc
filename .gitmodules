@@ -18,7 +18,7 @@
 	url = https://github.com/BENHSU0723/pcf.git
 [submodule "smf"]
 	path = NFs/smf
-	url = https://github.com/free5gc/smf.git
+	url = https://github.com/BENHSU0723/smf.git
 [submodule "udm"]
 	path = NFs/udm
 	url = https://github.com/BENHSU0723/udm.git
