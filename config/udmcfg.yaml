@@ -19,6 +19,12 @@ configuration:
       key: cert/udm.key # UDM TLS Private key
   nrfUri: http://127.0.0.10:8000 # a valid URI of NRF
   nrfCertPem: cert/nrf.pem # NRF Certificate
+  plmn: #for 5glan internal group ID generator used
+    mcc: 208
+    mnc: 93
+  vnGroup5glanServiceType: #Group Service Pattern: '[A-Fa-f0-9]{8}'
+    - Streaming-AAA00001
+    - FileTransfer-BBB00001
 
   # test data set from TS33501-f60 Annex C.4
   SuciProfile: # Home Network Public Key ID = slice index +1

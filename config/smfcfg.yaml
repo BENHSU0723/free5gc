@@ -90,9 +90,9 @@ configuration:
     maxRetryTimes: 3 # the max number of retransmission
   nrfUri: http://127.0.0.10:8000 # a valid URI of NRF
   nrfCertPem: cert/nrf.pem # NRF Certificate
-  urrPeriod: 10 # default usage report period in seconds
-  urrThreshold: 1000 # default usage report threshold in bytes
-  requestedUnit: 1000
+  urrPeriod: 60 # default usage report period in seconds
+  urrThreshold: 100000 # default usage report threshold in bytes
+  requestedUnit: 10000
 logger: # log output setting
   enable: true # true or false
   level: info # how detailed to output, value: trace, debug, info, warn, error, fatal, panic
