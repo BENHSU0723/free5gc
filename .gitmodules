@@ -1,6 +1,7 @@
 [submodule "amf"]
 	path = NFs/amf
 	url = https://github.com/BENHSU0723/amf.git
+    branch = feature/5glan
 [submodule "ausf"]
 	path = NFs/ausf
 	url = https://github.com/free5gc/ausf.git
@@ -16,21 +17,27 @@
 [submodule "pcf"]
 	path = NFs/pcf
 	url = https://github.com/BENHSU0723/pcf.git
+    branch = feature/5glan
 [submodule "smf"]
 	path = NFs/smf
 	url = https://github.com/BENHSU0723/smf.git
+    branch = feature/5glan
 [submodule "udm"]
 	path = NFs/udm
 	url = https://github.com/BENHSU0723/udm.git
+    branch = feature/5glan
 [submodule "udr"]
 	path = NFs/udr
 	url = https://github.com/BENHSU0723/udr.git
+    branch = feature/5glan
 [submodule "upf"]
 	path = NFs/upf
-	url = https://github.com/free5gc/go-upf.git
+	url = https://github.com/BENHSU0723/go-upf.git
+    branch = test5glan
 [submodule "webconsole"]
 	path = webconsole
 	url = https://github.com/BENHSU0723/webconsole.git
+    branch = feature/5glan
 [submodule "chf"]
 	path = NFs/chf
 	url = https://github.com/free5gc/chf.git
